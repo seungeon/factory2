@@ -312,17 +312,17 @@ function draw()
     } 
 
 
-    fill(225,mouseY*225/120,mouseY*225/410);
+    fill(225,mouseY*225/820,mouseY*225/1010);
     noStroke;
-    ellipse(1031,596,30,30);
+    ellipse(1031,596,15,15);
 
-    fill(225,mouseY*225/20,mouseY*225/40);
+    fill(225,mouseY*225/920,mouseY*225/940);
     noStroke;
-    ellipse(1031,620,30,30);
+    ellipse(1031,620,15,15);
 
-    fill(225,mouseY*225/300,mouseY*225/210);
+    fill(225,mouseY*225/600,mouseY*225/1200);
     noStroke;
-    ellipse(1031,648,30,30);
+    ellipse(1031,648,15,15);
 
 
 
