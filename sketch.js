@@ -36,7 +36,7 @@ var count2;
 
 var c;
 
-var add;
+var add1;
 var add2;
 var add3;
 var add4;
@@ -218,8 +218,8 @@ function draw()
     image(img2,204,499);
     image(img3,495,451);
     image(img4,556,714);
-    image(add1,938,713);
-    image(add2,899,494);
+    image(add1,899,494);
+    image(add2,938,713);
 }
 
 
