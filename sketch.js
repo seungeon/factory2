@@ -24,7 +24,13 @@ var c;
 var dir4=79;
 
 
+var soundFile;
 
+
+function preload() {
+  soundFormats('mp3', 'ogg');
+  soundFile = loadSound('bgm.mp3');
+}
 
 function setup()
 {
@@ -33,6 +39,7 @@ function setup()
 
     createCanvas(1280,908);
     bg = loadImage("bg.png");
+    soundFile.play();
 
 
     r = random(255);
