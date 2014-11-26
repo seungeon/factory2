@@ -300,7 +300,7 @@ function draw()
     noStroke;
     ellipse(1031,648,15,15);
 
-image(mouse,mouseX,mouseY);
+image(mouse,mouseX,mouseY,30,30);
 
 }
 
