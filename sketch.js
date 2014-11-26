@@ -8,7 +8,7 @@ var timing;
 var duration;
 
 var r, g, b;
-
+var d;
 
 
 var cup5;
@@ -323,7 +323,7 @@ function draw()
 
 function mousePressed() {
   // Check if mouse is inside the circle
-  var d = dist(mouseX, mouseY, 1028, 900);
+  var d = dist(mouseX, mouseY, 160, 160);
   if (d < 100) {
     // Pick new random color values
     r = random(255);
