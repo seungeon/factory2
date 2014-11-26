@@ -2,28 +2,12 @@ var bg;
 var dir1=40;
 var dir2=40;
 var dir3=40;
-var img;  
-var img2;
-var img3;
-var img4;
-var img5;
-var img6;
 
-var img8;
 var i;
 var timing;
 var duration;
-var img9;
-var img10;
-var img11;
-var img12;
 
-var photo;
-var photo2; 
-var photo3; 
-var photo4;
-var photo5;  
-var photo6;
+
 
 
 var cup5;
@@ -35,20 +19,6 @@ var count1;
 var count2;
 
 var c;
-
-var add1;
-var add2;
-var add3;
-var add4;
-var add5;
-
-var mb1;
-var mb2;
-var mb3;
-var mb4;
-
-var g;
-var g2;
 
 var dir4=79;
 
