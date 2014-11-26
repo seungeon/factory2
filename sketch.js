@@ -47,6 +47,9 @@ var mb2;
 var mb3;
 var mb4;
 
+var g;
+var g2;
+
 function setup()
 {
     c = 0;
@@ -59,7 +62,9 @@ function setup()
     mb2 = loadImage("mb2.png");
     mb3 = loadImage("mb3.png");
     mb4 = loadImage("mb4.png");
-
+    
+    g = loadImage("gTime1.png");
+    g2 = loadImage("gTime2.png");
 
 
     img = loadImage("sugarBox.png");
@@ -255,6 +260,13 @@ function draw()
     image(mb2,596,583);
     }else{
     image(mb3,586,583);
+    } 
+
+
+    if(timing*2 <1){
+    image(g,969,522);
+    } else{
+    image(g2,982,522);
     } 
 
 }
