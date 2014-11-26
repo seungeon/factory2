@@ -39,6 +39,11 @@ function setup()
     g = random(255);
     b = random(255);
 
+    banana1 = loadImage("banana1.png")
+    banana11 = loadImage("banana11.png")
+    banana2 = loadImage("banana2.png")
+    banana22 = loadImage("banana22.png")
+
     photo10 = loadImage("midCandyBox.png")
     photo11 = loadImage("can4.png")
     photo12 = loadImage("can5.png")
@@ -290,6 +295,18 @@ function draw()
     image(mb2,586,573);
     }else{
     image(mb3,596,573);
+    } 
+
+    if(timing*2 <1){
+    image(banana2,1141,113);
+    } else{
+    image(banana22,1144,116);
+    } 
+
+    if(timing2*2 <1){
+    image(banana1,1084,137);
+    } else{
+    image(banana11,1086,134);
     } 
 
 
