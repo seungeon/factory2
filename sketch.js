@@ -227,12 +227,12 @@ function draw()
     image(mb1,596,573);
     } else if(timing*4 <2){
     image(mb2,596,583);
-    }else(timing*4 <3){
+    }else if(timing*4 <3){
     image(mb3,596,583);
     else{
     image(mb4,586,583)
     }
-    } 
+     
 
 
 
