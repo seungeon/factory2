@@ -297,8 +297,8 @@ function draw()
     image(mb3,596,573);
     } 
 
-    if(timing*2 <1){
-    image(banana2,1141,113);
+    if(timing2*2 <1){
+    image(banana2,1140,110);
     } else{
     image(banana22,1144,116);
     } 
