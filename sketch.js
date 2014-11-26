@@ -137,6 +137,8 @@ function draw()
     drawSnow2();
     drawSnow3();
 
+    drawWater();
+
 
     image(photo,248,124);
     image(photo2,347,124);
