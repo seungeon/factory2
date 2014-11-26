@@ -7,6 +7,7 @@ var i;
 var timing;
 var duration;
 
+var r, g, b;
 
 
 
@@ -32,6 +33,11 @@ function setup()
 
     createCanvas(1280,908);
     bg = loadImage("bg.png");
+
+
+    r = random(255);
+    g = random(255);
+    b = random(255);
 
     photo10 = loadImage("midCandyBox.png")
     photo11 = loadImage("can4.png")
@@ -300,11 +306,31 @@ function draw()
     noStroke;
     ellipse(1031,648,15,15);
 
-image(mouse,mouseX,mouseY,100,100);
+    image(mouse,mouseX,mouseY,100,100);
 
+
+    //click mouse 
+
+    strokeWeight(2);
+    stroke(r, g, b);
+    fill(r, g, b, 127);
+    ellipse(821, 103, 20, 20);
 }
 
 
+
+}
+
+function mousePressed() {
+  // Check if mouse is inside the circle
+  var d = dist(mouseX, mouseY, 360, 200);
+  if (d < 100) {
+    // Pick new random color values
+    r = random(255);
+    g = random(255);
+    b = random(255);
+  }
+}
 
 
 function drawSnow1(){
