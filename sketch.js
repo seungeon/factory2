@@ -50,6 +50,9 @@ var mb4;
 var g;
 var g2;
 
+var dir4=79;
+
+
 function setup()
 {
     c = 0;
@@ -57,6 +60,13 @@ function setup()
 
     createCanvas(1280,908);
     bg = loadImage("bg.png");
+
+    photo10 = loadImage("midCandyBox.png")
+    photo11 = loadImage("can4.png")
+    photo12 = loadImage("can5.png")
+    photo13 = loadImage("can6.png")
+    photo14 = loadImage("left.png")
+    photo15 = loadImage("leftLine.png")
 
     mb1 = loadImage("mb1.png");
     mb2 = loadImage("mb2.png");
@@ -263,11 +273,35 @@ function draw()
     } 
 
 
-    if(timing*2 <1){
+    if(timing2*2 <1){
     image(g,969,522);
     } else{
     image(g2,982,522);
     } 
+
+var duration2 = 500;
+         var timing2 = (new Date()%duration2)/duration2;
+
+        image(photo11,689 + Math.cos(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7,           // x좌표
+              308 + Math.sin(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7, // y좌표
+              15,                                  // width
+              15);                     //height
+
+        image(photo12,684 + Math.sin(timing2*2*PI)*20+ Math.sin(timing2*2*PI)*3,           // x좌표
+              332 + Math.cos(timing2*2*PI)*20+ Math.sin(timing2*2*PI)*3, // y좌표
+              15,                                  // width
+              15);  
+
+
+        var duration2 = 800;
+         var timing2 = (new Date()%duration2)/duration2;
+
+        image(photo13,710 + Math.cos(timing2*2*PI)*25+ Math.cos(timing2*2*PI)*5,           // x좌표
+              321 + Math.sin(timing2*2*PI)*25+ Math.cos(timing2*2*PI)*5, // y좌표
+              15,                                  // width
+              15);                     //height
+
+
 
 }
 
@@ -365,3 +399,4 @@ var f = false;
         }
 
     }
+
