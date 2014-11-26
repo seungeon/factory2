@@ -124,7 +124,7 @@ function draw()
 
 
  
-    image(img,254,0);
+    image(img,254,5);
     image(img11,506,217);
     
     fill(225,mouseY*225/320,mouseY*225/210);
@@ -177,9 +177,9 @@ function draw()
     image(img6,212,724);
 
 
-    if(timing*3 >1){
+    if(timing*3 <1){
     image(cup6,312,274);
-    } else if(timing*3 >2){
+    } else if(timing*3 <2){
     image(cup3,312,274);
     }else{
     image(cup4,312,274);
@@ -314,7 +314,7 @@ function drawSnow1(){
 
 
 
-    image(photo4,544,0);
+    image(photo4,544,5);
 
     image(photo6,562,375)
 
