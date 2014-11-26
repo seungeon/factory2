@@ -43,8 +43,9 @@ var add4;
 var add5;
 
 var mb1;
-var mb1;
-var mb1;
+var mb2;
+var mb3;
+var mb4;
 
 function setup()
 {
@@ -53,6 +54,14 @@ function setup()
 
     createCanvas(1280,908);
     bg = loadImage("bg.png");
+
+    mb1 = loadImage("mb1.png");
+    mb2 = loadImage("mb2.png");
+    mb3 = loadImage("mb3.png");
+    mb4 = loadImage("mb4.png");
+
+
+
     img = loadImage("sugarBox.png");
     img2 = loadImage("midBox.png");
     img3 = loadImage("midBox2.png");
@@ -213,6 +222,19 @@ function draw()
             c= c+1;
         }
 */
+    
+    if(timing*4 <1){
+    image(mb1,596,573);
+    } else if(timing*4 <2){
+    image(mb2,596,583);
+    }else(timing*4 <3){
+    image(mb3,596,583);
+    else{
+    image(mb4,586,583)
+    }
+    } 
+
+
 
     if(f){
     if(c < -17){
