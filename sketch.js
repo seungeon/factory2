@@ -112,7 +112,7 @@ function draw()
     image(photo5,568,117);
     
 
-    var duration = 3000;
+    var duration = 5000;
     var timing = (new Date()%duration)/duration;
 
 
@@ -125,7 +125,7 @@ function draw()
     ellipse(529.5,240.5,30,30);
 
     image(img12,526,228);
-    image(img3,495,451);
+
 
 /*
     fill(0);
@@ -157,7 +157,7 @@ function draw()
     }
 
 
-    image(img4,556,714);
+
     image(img5,0,700);
     image(img6,212,724);
 
@@ -212,7 +212,9 @@ function draw()
 
     }
 
-              image(img2,204,499);
+    image(img2,204,499);
+    image(img3,495,451);
+    image(img4,556,714);
 }
 
 
