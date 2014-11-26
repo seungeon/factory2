@@ -313,7 +313,7 @@ function draw()
 
     noStroke();
     fill(r, g, b, 127);
-    ellipse(821, 103, 30, 30);
+    ellipse(821, 110, 27, 27);
 
 
 
