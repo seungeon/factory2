@@ -312,7 +312,6 @@ function draw()
     //click mouse 
 
     noStroke();
-    stroke(r, g, b);
     fill(r, g, b, 127);
     ellipse(821, 103, 30, 30);
 
