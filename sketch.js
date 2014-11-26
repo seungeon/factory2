@@ -53,6 +53,8 @@ var g2;
 var dir4=79;
 
 
+
+
 function setup()
 {
     c = 0;
@@ -67,6 +69,8 @@ function setup()
     photo13 = loadImage("can6.png")
     photo14 = loadImage("left.png")
     photo15 = loadImage("leftLine.png")
+
+    mouse = loadImage("mouseELMO.png")
 
     mb1 = loadImage("mb1.png");
     mb2 = loadImage("mb2.png");
@@ -326,7 +330,7 @@ function draw()
     noStroke;
     ellipse(1031,648,15,15);
 
-
+image(mouse,mouseX,mouseY);
 
 }
 
