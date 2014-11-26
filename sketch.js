@@ -163,6 +163,8 @@ function draw()
     noStroke;
     ellipse(529.5,240.5,30,30);
 
+
+
     image(img12,526,228);
 
 
@@ -308,6 +310,21 @@ function draw()
     } else{
     image(g2,982,522);
     } 
+
+
+    fill(225,mouseY*225/120,mouseY*225/410);
+    noStroke;
+    ellipse(1031,596,30,30);
+
+    fill(225,mouseY*225/20,mouseY*225/40);
+    noStroke;
+    ellipse(1031,620,30,30);
+
+    fill(225,mouseY*225/300,mouseY*225/210);
+    noStroke;
+    ellipse(1031,648,30,30);
+
+
 
 }
 
