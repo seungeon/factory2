@@ -169,12 +169,12 @@ function draw()
     } else if(timing*3 <2){
     image(add4,timing*938,727);
     }else{
-    image(add5,timing*938,774);
+    image(add5,timing*938,724);
 
     } 
 
     image(img5,0,700);
-    image(img6,212,724);
+    image(img6,212,680);
 
 
     if(timing*3 <1){
