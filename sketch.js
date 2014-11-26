@@ -180,7 +180,7 @@ function draw()
     if(timing*3 <1){
     image(cup6,312,274);
     } else if(timing*3 <2){
-    image(cup3,312,274);
+    image(cup3,312,271);
     }else{
     image(cup4,312,274);
 
