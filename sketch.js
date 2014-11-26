@@ -148,11 +148,11 @@ function draw()
 */
 
  
-    if(timing*2 <1){
+    if(timing*3 <1){
     image(img8, timing*899,568);
-    } else if(timing*2 <2){
+    } else if(timing*3 <2){
     image(img9, timing*899,552);
-    } else(timing*2 <3){
+    } else{
     image(img10, timing*899,552);
     }
 
