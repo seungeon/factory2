@@ -41,7 +41,7 @@ var add2;
 var add3;
 var add4;
 var add5;
-var add6;
+
 
 
 function setup()
@@ -86,6 +86,10 @@ function setup()
     add1 = loadImage("midE.png");
     add2 = loadImage("bottomE.png");
 
+    add3 = loadImage("underCup4.png")
+    add4 = loadImage("underCup5.png")
+    add5 = loadImage("underCup6.png")
+
 
 
     count=0;
@@ -115,7 +119,7 @@ function draw()
     image(photo5,568,117);
     
 
-    var duration = 5000;
+    var duration = 7000;
     var timing = (new Date()%duration)/duration;
 
 
@@ -160,19 +164,29 @@ function draw()
     }
 
 
+    if(timing*3 <1){
+    image(add3,938,708);
+    } else if(timing*3 <2){
+    image(add4,938,727);
+    }else{
+    image(add5,938,774);
+
+    } 
 
     image(img5,0,700);
     image(img6,212,724);
 
 
-    if(timing*3 <1){
+    if(timing*3 >1){
     image(cup6,312,274);
-    } else if(timing*3 <2){
+    } else if(timing*3 >2){
     image(cup3,312,274);
     }else{
     image(cup4,312,274);
 
     } 
+
+
 
 
     image(cup5,213,274);
