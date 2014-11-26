@@ -396,17 +396,17 @@ function drawSnow1(){
 
     }
 
-var f = false;
+
+
+    
+    var f = false;
     function mouseClicked(){
         if (!f){
             f=true;
         }
+     }
 
-    }
-
-
-
-function drawWater(){
+   function drawWater(){
 
     noStroke();
     
