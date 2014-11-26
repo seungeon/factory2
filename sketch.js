@@ -311,10 +311,10 @@ function draw()
 
     //click mouse 
 
-    noStroke;
+    noStroke();
     stroke(r, g, b);
     fill(r, g, b, 127);
-    ellipse(821, 103, 20, 20);
+    ellipse(821, 103, 30, 30);
 
 
 
@@ -323,7 +323,7 @@ function draw()
 
 function mousePressed() {
   // Check if mouse is inside the circle
-  var d = dist(mouseX, mouseY, 360, 200);
+  var d = dist(mouseX, mouseY, 1028, 900);
   if (d < 100) {
     // Pick new random color values
     r = random(255);
