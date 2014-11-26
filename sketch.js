@@ -174,15 +174,15 @@ function draw()
     } 
 
     image(img5,0,700);
-    image(img6,212,680);
+    image(img6,212,706);
 
 
     if(timing*3 <1){
-    image(cup6,312,274);
+    image(cup4,312,274);
     } else if(timing*3 <2){
     image(cup3,312,271);
     }else{
-    image(cup4,312,274);
+    image(cup6,312,274);
 
     } 
 
