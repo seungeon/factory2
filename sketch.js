@@ -83,6 +83,9 @@ function setup()
     photo8 = loadImage("candy2.png");
     photo9 = loadImage("candy3.png");
 
+    add1 = loadImage("midE.png");
+    add2 = loadImage("bottomE.png");
+
 
 
     count=0;
@@ -215,6 +218,8 @@ function draw()
     image(img2,204,499);
     image(img3,495,451);
     image(img4,556,714);
+    image(add1,938,713);
+    image(add2,899,494);
 }
 
 
