@@ -223,13 +223,6 @@ function draw()
         }
 */
     
-    if(timing*3 <1){
-    image(mb1,596,573);
-    } else if(timing*3 <2){
-    image(mb2,596,583);
-    }else{
-    image(mb3,586,583);
-    } 
 
 
 
@@ -255,6 +248,15 @@ function draw()
     image(img4,556,704);
     image(add2,938,713);
     image(add1,899,494);
+
+    if(timing*3 <1){
+    image(mb1,596,573);
+    } else if(timing*3 <2){
+    image(mb2,596,583);
+    }else{
+    image(mb3,586,583);
+    } 
+
 }
 
 
