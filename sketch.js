@@ -36,6 +36,14 @@ var count2;
 
 var c;
 
+var add;
+var add2;
+var add3;
+var add4;
+var add5;
+var add6;
+
+
 function setup()
 {
     c = 0;
@@ -50,9 +58,9 @@ function setup()
     img5 = loadImage("bottomL.png");
     img6 = loadImage("bottomMid.png");
 
-    img8 = loadImage("cookie.png");
-    img9 = loadImage("bottomCup.png");
-    img10 = loadImage("bottomCup2.png");
+    img8 = loadImage("bottomCup.png");
+    img9 = loadImage("bottomCup2.png");
+    img10 = loadImage("bottomCup3.png");
     img11 = loadImage("timer.png");
     img12 = loadImage("timer2.png");
 
@@ -117,8 +125,9 @@ function draw()
     ellipse(529.5,240.5,30,30);
 
     image(img12,526,228);
+    image(img3,495,451);
 
-
+/*
     fill(0);
     for(var i = -1 ; i <10 ; i++){
     image(img8, i*(15+img.width)+timing*(15+img.width),603);
@@ -135,6 +144,18 @@ function draw()
     } else if(timing*2 <2){
     image(img10, timing*700,727);
     }
+
+*/
+
+ 
+    if(timing*2 <1){
+    image(img8, timing*899,568);
+    } else if(timing*2 <2){
+    image(img9, timing*899,552);
+    } else(timing*2 <3){
+    image(img10, timing*899,552);
+    }
+
 
     image(img4,556,714);
     image(img5,0,700);
