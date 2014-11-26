@@ -41,7 +41,6 @@ function setup()
     bg = loadImage("bg.png");
     soundFile.play();
 
-
     r = random(255);
     g = random(255);
     b = random(255);
