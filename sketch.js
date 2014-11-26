@@ -172,6 +172,7 @@ function draw()
     image(add5,timing*938,724);
 
     } 
+    
 
     image(img5,0,700);
     image(img6,212,706);
