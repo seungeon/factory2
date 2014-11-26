@@ -42,7 +42,9 @@ var add3;
 var add4;
 var add5;
 
-
+var mb1;
+var mb1;
+var mb1;
 
 function setup()
 {
@@ -164,15 +166,14 @@ function draw()
     }
 
 
-    if(timing*3 <1){
-    image(add3,timing*938,708);
+    if(timing*3 <1){    
+    image(add5,timing*938,724);
     } else if(timing*3 <2){
     image(add4,timing*938,727);
     }else{
-    image(add5,timing*938,724);
-
+    image(add3,timing*938,708);
     } 
-    
+
 
     image(img5,0,700);
     image(img6,212,706);
