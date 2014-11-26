@@ -279,8 +279,8 @@ function draw()
     image(g2,982,522);
     } 
 
-var duration2 = 500;
-         var timing2 = (new Date()%duration2)/duration2;
+    var duration2 = 500;
+    var timing2 = (new Date()%duration2)/duration2;
 
         image(photo11,689 + Math.cos(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7,           // x좌표
               308 + Math.sin(timing2*2*PI)*30+ Math.cos(timing2*2*PI)*7, // y좌표
@@ -293,8 +293,8 @@ var duration2 = 500;
               15);  
 
 
-        var duration2 = 800;
-         var timing2 = (new Date()%duration2)/duration2;
+    var duration2 = 800;
+    var timing2 = (new Date()%duration2)/duration2;
 
         image(photo13,710 + Math.cos(timing2*2*PI)*25+ Math.cos(timing2*2*PI)*5,           // x좌표
               321 + Math.sin(timing2*2*PI)*25+ Math.cos(timing2*2*PI)*5, // y좌표
@@ -399,4 +399,25 @@ var f = false;
         }
 
     }
+
+
+
+function drawWater(){
+    
+    noStroke();
+    
+    fill(254,252,236); 
+    ellipse(100,dir4+30,10,10);
+    ellipse(95,dir4+10,7,7);
+    ellipse(110,dir4+7,5,5);
+    ellipse(105,dir4+0.1,13,13);
+    //ellipse(290,dir1+16,3,3);
+
+
+    dir4=dir4+3;    
+    if(dir4>280){
+     dir4=79;
+    }
+
+    }    
 
