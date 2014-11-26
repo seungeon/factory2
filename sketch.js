@@ -44,6 +44,13 @@ function setup()
     banana2 = loadImage("banana2.png")
     banana22 = loadImage("banana22.png")
 
+    apple1 = loadImage("apple1.png")
+    apple11 = loadImage("apple11.png")
+    apple2 = loadImage("apple2.png")
+    apple22 = loadImage("apple22.png")
+    apple3 = loadImage("apple3.png")
+    apple33 = loadImage("apple33.png")
+
     photo10 = loadImage("midCandyBox.png")
     photo11 = loadImage("can4.png")
     photo12 = loadImage("can5.png")
@@ -307,6 +314,27 @@ function draw()
     image(banana1,1084,137);
     } else{
     image(banana11,1086,134);
+    } 
+
+
+    if(timing2*2 <1){
+    image(apple1,925,124);
+    } else{
+    image(apple11,928,129);
+    } 
+
+
+    if(timing2*2 <1){
+    image(apple2,978,95);
+    } else{
+    image(apple22,985,100);
+    } 
+
+
+    if(timing2*2 <1){
+    image(apple3,1022,134);
+    } else{
+    image(apple33,1028,139);
     } 
 
 
