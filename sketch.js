@@ -277,11 +277,7 @@ function draw()
     } 
 
 
-    if(timing2*2 <1){
-    image(g,969,522);
-    } else{
-    image(g2,982,522);
-    } 
+
 
     var duration2 = 500;
     var timing2 = (new Date()%duration2)/duration2;
@@ -305,7 +301,11 @@ function draw()
               15,                                  // width
               15);                     //height
 
-
+    if(timing2*2 <1){
+    image(g,969,522);
+    } else{
+    image(g2,982,522);
+    } 
 
 }
 
