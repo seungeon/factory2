@@ -143,6 +143,10 @@ function draw()
     image(photo3,444,124);
     
     image(photo5,568,117);
+
+    image(photo10,650,259);
+    image(photo14,38,18);
+    image(photo15,79,153);
     
 
     var duration = 7000;
@@ -403,7 +407,7 @@ var f = false;
 
 
 function drawWater(){
-    
+
     noStroke();
     
     fill(254,252,236); 
