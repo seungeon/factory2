@@ -224,15 +224,16 @@ function draw()
 */
     
     if(timing*4 <1){
-    image(mb1,596,573);
+    image(mb1,408,260);
     } else if(timing*4 <2){
-    image(mb2,596,583);
+    image(mb2,408,264);
     }else if(timing*4 <3){
-    image(mb3,596,583);
+    image(mb3,408,264);
     else{
-    image(mb4,586,583)
-    }
-    
+    image(mb4,408,264);
+
+
+    } 
 
 
 
