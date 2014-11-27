@@ -247,9 +247,9 @@ function draw()
         c=0;
         f=false;
     }else{
-        stroke(135,206,250);
+        stroke(255,255,255,128);
         strokeWeight(7);
-        fill(135,206,250);
+        fill(255,255,255);
         ellipse(305,500+c*5,30,30);
         ellipse(295,530+c*5,10,10);
         ellipse(315,560+c*5,7,7);
