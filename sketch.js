@@ -265,7 +265,7 @@ function draw()
     image(add2,938,713);
     image(add1,899,494);
 
-    image(add,20,264);
+    image(add,20,268);
 
 
 
