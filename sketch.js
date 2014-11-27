@@ -38,6 +38,8 @@ function setup()
     g = random(255);
     b = random(255);
 
+    add = loadImage("add.png")
+
     banana1 = loadImage("banana1.png")
     banana11 = loadImage("banana11.png")
     banana2 = loadImage("banana2.png")
@@ -135,7 +137,7 @@ function draw()
     image(photo2,347,124);
     image(photo3,444,124);
     
-    image(photo5,568,117);
+    image(photo5,568,120);
 
     image(photo10,650,259);
     image(photo14,38,18);
@@ -262,6 +264,8 @@ function draw()
     image(img4,556,704);
     image(add2,938,713);
     image(add1,899,494);
+
+    image(add,20,264);
 
 
 
